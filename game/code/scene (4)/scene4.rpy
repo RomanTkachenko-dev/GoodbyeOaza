@@ -227,6 +227,7 @@ label scene_four:
     menu:
 
         "{i}Зупинити Інкі":
+            $ renpy.notify('Gained achievement: "Сухий закон"')
             $відносини_інкі =1
             play sound "audio/Сцена 5/ЗвукПляшкиЯкуХоваютьНазад.mp3"
             show павка здивована at left2
@@ -292,7 +293,7 @@ label scene_four:
                     "..."
                 "{i}Лазня?":
                     "..."
-
+            $ renpy.notify('Gained achievement: "Слідкуй за мовою! "')
             show інкі весела at right2
             "{i}Лайно!!"
 

@@ -13,35 +13,36 @@ label start:
 
 
 
-    menu:
-        "Сцена 2":
-            jump scene_two
-        "Сцена 3":
-            jump scene_three
-        "Сцена 4":
-            jump scene_four
-        "Сцена 5":
-            jump scene_five
-        "Сцена 6":
-            jump scene_six
-        "Сцена 7":
-            jump scene_seven
-        "Сцена 8":
-            jump scene_eight
-        "Сцена 9":
-            jump scene_nine
-        "Сцена 10":
-            jump scene_ten
-        "Сцена 11":
-            jump scene_eleven
-        "Сцена 12":
-            jump scene_twelve
-        "Сцена 13":
-            jump scene_thirteen
-        "Сцена 14":
-            jump scene_final
-        "Грати далі":
-            "..."
+#    menu:
+#        "Сцена 2":
+#            jump scene_two
+#        "Сцена 3":
+#            jump scene_three
+#        "Сцена 4":
+#            jump scene_four
+#        "Сцена 5":
+    #        jump scene_five
+    #    "Сцена 6":
+    #        jump scene_six
+    #    "Сцена 7":
+    #        jump scene_seven
+    #    "Сцена 8":
+    #        jump scene_eight
+        #"Сцена 9":
+    #        jump scene_nine
+    #    "Сцена 10":
+    #        jump scene_ten
+    #    "Сцена 11":
+    #        jump scene_eleven
+    #    "Сцена 12":
+    #        jump scene_twelve
+    #    "Сцена 13":
+    #        jump scene_thirteen
+    #    "Сцена 14":
+    #        jump scene_final
+    #    "Грати далі":
+    #        "..."
+    
     "{i}Тут так світло і спокійно, що хочеться співати"
     "{i}Навколо так багато зеленого кольору"
     "{i}Прохолодний, прозорий подих вітру — і ось зелені ромби на шкірястих, шорстких стовпах тремтять"

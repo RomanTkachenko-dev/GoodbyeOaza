@@ -150,6 +150,8 @@ label scene_final:
 
             павка "І свободу від хибних зв'язків!"
 
+            $ renpy.notify('Gained achievement: "Вільна й суспільна"')
+
         "Єдність із самою собою":
 
             павка "Бажаю тобі знайти серед усього цього самого себе"
@@ -157,7 +159,7 @@ label scene_final:
             павка "Дійти до справжнього себе і більше себе нікуди своє не відпускати"
 
             генто "А мені не треба. Я зроблений зі свого світу. Залишалося тільки обрати ставлення — і я його обрав"
-
+            $ renpy.notify('Gained achievement: "Мудра дівчина"')
             menu:
                 "Хіба ставлення не є зв'язок?":
 
@@ -167,6 +169,7 @@ label scene_final:
 
         "Нічого":
 
+            $ renpy.notify('Gained achievement: "Хто як — а русалонька чекатиме"')
             "{i}В мене не залишилося нічого"
 
             "{i}Ні-чо-го"
@@ -207,6 +210,7 @@ label scene_final:
 
     hide павка2 весела at left2
     scene назовні_куполу
+    $ renpy.notify('Gained achievement: "Прощавай, Оазо!"')
     play music "audio/Сцена 14/Тема Виходу Назовні Основна.mp3"
 
     "{i}Запахи стають сильніше. Знайомі запахи, яких я ніколи не чула"
@@ -225,5 +229,34 @@ label scene_final:
 
     show павка2 весела at left2
     павка "Ну що ж, вітаю тебе, світ!"
-    "ТИТРИ"
+    scene фон with dissolve
+
+    jump end
+label end:
+
+    show text "Над грою працювали:" with dissolve
+    $ renpy.pause(2.0)
+    show text "АННА РЖЕВСЬКА @a.rzh_art - фони, дизайн інтерфейсів"
+    $ renpy.pause(4.0)
+    show text "СНІЖАНА @MakuryMk - дизайн та відмальовка персонажів"
+    $ renpy.pause(4.0)
+    show text "АРТЕМ БЕМБА - музика, звуки"
+    $ renpy.pause(4.0)
+    show text "ВАЛЕРІЙ ПЕТРОВ @ValeriyEvgPetrov - сторібордінг, менеджмент, геймдизайн"
+    $ renpy.pause(4.0)
+    show text "ДАРІЯ СЕЛИЩЕВА @dahuanna - ідея, сценарій, додаткові тексти"
+    $ renpy.pause(4.0)
+    show text "МАРІЯ УЧИТЕЛЬ @tenar_of_atuan - редакція"
+    $ renpy.pause(4.0)
+    show text "РОМАН ТКАЧЕНКО @severus4 - код, технічний дизайн"
+    $ renpy.pause(4.0)
+    show text "Дякуюємо за тестування гри: ":
+    $ renpy.pause(2.0)
+    show text "@belkkaб, @LIrq_a, @olexandr92, @Ixsisr":
+    $ renpy.pause(4.0)
+    show text "Додаткові звуки взяти з відкритих бібліотек YouTube.com та pixabay.com"
+    $ renpy.pause(4.0)
+    show text "Гру створено для геймджему українських візуальних новел Ukrainian Visual Novel Jam #2"
+    $ renpy.pause(2.0)
+
     return

@@ -384,6 +384,7 @@ label scene_nine:
                     show лайя рішучий at right2
 
                     лайя "Так, план твого порятунку провалився, але я підготував план Б"
+                    $ renpy.notify('Gained achievement: "Свій шлях"')
 
     show лайя рішучий at right2
     show павка нейтральна at left2
@@ -423,6 +424,7 @@ label scene_nine:
 
         show лайя нейтральний at right2
         show павка нейтральна at left2
+        $ renpy.notify('Gained achievement: "Подарунок із мого сну"')
         "Він виймає з-під поли свого плаща маленьку довгасту річ"
 
         show павка задумлива at left2

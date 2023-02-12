@@ -2,9 +2,10 @@
 errors listed below, and try again.
 
 
-File "game/code/scene (8)/scene 8.rpy", line 330: expected statement.
-    Звук автомобіля
-                   ^
+File "game/code/scene (9)/scene 9.rpy", line 387: invalid syntax
+    renpy.notify('Gained achievement: "Свій шлях"')Свій шлях
+                                                    ^
+    
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Feb 12 21:52:34 2023
+Sun Feb 12 23:31:32 2023

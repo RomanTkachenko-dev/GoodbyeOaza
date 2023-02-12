@@ -316,4 +316,51 @@ label scene_six:
     hide павка зла with dissolve
     scene фон
     "..."
+
+    scene автомат_годіум with dissolve
+    play music "audio/Сцена 5/КопіяТемаМіста.mp3" fadeout 1
+
+    show інкі скептична at right2 with dissolve
+    show павка сумна at left2 with dissolve
+    інкі "Павко! Ти що там, заснула? Ти спиш з відкритими очима?"
+
+    show павка здивована at left2 with dissolve
+    павка "А? Ні, просто поринула у спогади"
+
+    show інкі задумлива at right2 with dissolve
+    інкі "Зазвичай це я десь на своїй хвилі"
+
+    інкі "Ну що, я свою частину зробила — тепер твоя черга"
+
+    show павка усміхнена at left2 with dissolve
+    павка "Ага, добре"
+
+    hide інкі задумлива at right2 with dissolve
+    hide павка усміхнена at left2 with dissolve
+    scene фон with dissolve
+    "{i}Минуло півгодини"
+
+    scene фон with dissolve
+
+    show інкі нейтральна at right2 with dissolve
+    show павка весела at left2 with dissolve
+    scene автомат_годіум
+    павка "Ну от і все!"
+
+    scene автомат_годіум
+    "{i}Це було простіше, ніж я думала. П’ять хвилин - і все. Лайя не збрехав, це справді просто. Даремно я хвилювалась!"
+
+    show інкі рішуча at right2 with dissolve
+    інкі  "Так, Павко, нам пора їхати далі. Вперед!"
+
+    hide інкі рішуча at right2 with dissolve
+    hide павка весел at left2 with dissolve
+    scene автомат_годіум with dissolve
+
+    "{i}Весь день ми літаємо з одного сектору Купола в інший"
+
+    "{i}Я використовую прилад, який дав мені Лайя, а сама внутрішньо тремчу від однієї думки про свою Втечу сьогодні ввечорі"
+
+    "{i}Настає вечір, і ми підїжджаємо до останнього на сьогдоні трансконектору"
+
     jump scene_seven
