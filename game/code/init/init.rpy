@@ -14,8 +14,6 @@ define кімната = Character("Кімната 116", color = "#2196f3")
 
 define гучномовець = Character("Гучномовець", color = "#ff0a54")
 
-define перевіряючий = Character("Перевіряючий", color = "#55a630")
-
 define йербі = Character("Йербі", color = "C27664")
 
 define генто = Character("Генто", color = "#C69749")
@@ -26,6 +24,8 @@ define мама = Character("Мама", color = "#F8F988")
 
 define суйра = Character("Суйра", color = "#FEA1BF")
 
+
+define автовідповідач = Character("Автовідповідач", color = "#153462")
 
 define пасажирка = Character("Пасажирка", color = "#F273E6")
 
