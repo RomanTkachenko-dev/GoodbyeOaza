@@ -20,11 +20,17 @@ define йербі = Character("Йербі", color = "C27664")
 
 define генто = Character("Генто", color = "#C69749")
 
-define батько = Character("Батько", color = "#000000")
+define батько = Character("Батько", color = "#009EFF")
 
-define мама = Character("Мама", color = "#000000")
+define мама = Character("Мама", color = "#F8F988")
 
-define суйра = Character("Суйра", color = "#000000")
+define суйра = Character("Суйра", color = "#FEA1BF")
+
+
+define пасажирка = Character("Пасажирка", color = "#F273E6")
+
+define перевіряючий = Character("Перевіряючий", color = "#FAD6A5")
+
 
 define голос = Character("Голос", color = "6900C6")
 define голос1 = Character("Голос 1", color = "fb8500")
@@ -56,6 +62,8 @@ default годіум_інкі = False
 default лайка_інкі = False
 default шок_інкі = False
 default обіцянка_інкі = False
+
+default втеча_годіум = False
 
 default вулиця = False
 default брама = False

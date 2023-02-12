@@ -107,7 +107,12 @@ label splashscreen:
 
     show text 'Рекомендуємо грати в навушниках для більшого занурення у історію'
     $ ui.keymap(mouseup_1=ui.returns("_return"))
-    $ ui.pausebehavior( 4, result="Skip")
+    $ ui.pausebehavior( 3, result="Skip")
+    $ ui.interact()
+
+    show text 'Приємної гри!'
+    $ ui.keymap(mouseup_1=ui.returns("_return"))
+    $ ui.pausebehavior( 2, result="Skip")
     $ ui.interact()
 
 
