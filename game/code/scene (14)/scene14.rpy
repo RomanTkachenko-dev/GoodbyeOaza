@@ -225,5 +225,5 @@ label scene_final:
 
     show павка2 весела at left2
     павка "Ну що ж, вітаю тебе, світ!"
-
+    "ТИТРИ"
     return

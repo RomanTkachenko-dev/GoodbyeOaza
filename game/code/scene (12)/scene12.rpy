@@ -9,7 +9,7 @@ label scene_twelve:
     menu:
         "Відповісти на дзвінок":
 
-            show павкадім розгублена at left2
+            show павкадім розгублена at left2 with dissolve
             мама "В нашому секторі автомати не видають годіум. Батькові не вистачило дози. Вже втретє за останні два дні"
 
             show павкадім розгублена at left2
@@ -28,7 +28,7 @@ label scene_twelve:
                 "Зателефонувати Інкі":
 
                     show павкадім рішуча at left2
-                    show інкі2 нейтральна at right2
+                    show інкі2 нейтральна at right2 with dissolve
                     інкі "Слухаю"
 
                     павка "Дай машину. В моєї сім'ї дуже важка ситуація. Потрібно терміново відвезти годіум"
@@ -49,7 +49,7 @@ label scene_twelve:
                     play sound "audio/Сцена 12/Звук Кидання Трубки.mp3"
 
                     show павкадім розгублена at left2
-                    hide інкі2 сумна at right2
+                    hide інкі2 сумна at right2 with dissolve
                     "{i}В мене ще не було знайомств. На той момент я працювала в Оазі лише кілька місяців. Варіантів здобути автомобіль було не багато"
 
                 "Подзвонити у головний офіс":
@@ -113,7 +113,7 @@ label scene_twelve:
             menu:
                 "Подзвонити батькам":
                     show павкадім сумна at left2
-                    show батько нейтральний at right2
+                    show батько нейтральний at right2 with dissolve
                     батько "так, доню?"
 
                     павка "Тобі тяжко?"
@@ -220,8 +220,8 @@ label scene_twelve:
                     stop sound
                     play sound "audio/Пісні Павка/ПісняО2.mp3"
 
-                    hide батько посміхається at right2
-                    hide павка усміхнена at left2
+                    hide батько посміхається at right2 with dissolve
+                    hide павка усміхнена at left2 with dissolve
 
                     scene фон
 
@@ -251,7 +251,7 @@ label scene_twelve:
                     show генто нейтральний at right2
                     генто "Давай рухатися швидше, нам ще довго йти"
 
-                    hide генто нейтральний at right2
+                    hide генто нейтральний at right2 with dissolve
                     show павка2К рішуча at left2
                     "{i}Але я не можу просто пройти повз це.. Я чую справжню музику — вперше в моєму житті!"
 
