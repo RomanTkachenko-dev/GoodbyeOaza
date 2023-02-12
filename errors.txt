@@ -2,11 +2,9 @@
 errors listed below, and try again.
 
 
-The label scene_eleven is defined twice, at File "game/code/scene (11)/scene11.rpy", line 1:
-label scene_eleven:
-and File "game/code/scene (12)/scene12.rpy", line 1:
-label scene_eleven:
-
+File "game/code/scene (12)/scene12.rpy", line 121: end of line expected.
+    батько "Я уявляю собі, що піднявся на гору і бачу знизу воду, що тече та завивається… То називається "річка", а її завитки називаються "меандрами". Так красиво"
+                                                                                                          ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Feb 12 13:42:20 2023
+Sun Feb 12 15:37:57 2023

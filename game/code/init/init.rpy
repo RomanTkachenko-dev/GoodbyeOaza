@@ -20,6 +20,12 @@ define йербі = Character("Йербі", color = "C27664")
 
 define генто = Character("Генто", color = "#C69749")
 
+define батько = Character("Батько", color = "#000000")
+
+define мама = Character("Мама", color = "#000000")
+
+define суйра = Character("Суйра", color = "#000000")
+
 define голос = Character("Голос", color = "6900C6")
 define голос1 = Character("Голос 1", color = "fb8500")
 define голос2 = Character("Голос 2", color = "f25c54")
