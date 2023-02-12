@@ -12,7 +12,7 @@ label scene_four:
     show інкі годіум at right2 with dissolve
     "{i}Ранок тільки настав. Цікаво, вкотре вона вже закидується?"
 
-    play sound  "audio/Сцена 3/ВилитиГодіум.mp3" fadeout 1
+    #play sound  "audio/Сцена 3/ВилитиГодіум.mp3" fadeout 1
 
     menu:
         "{i}Привітатися":
@@ -75,10 +75,14 @@ label scene_four:
 
     show павка нейтральна at left2
     інкі "Час вирушати. Сьогодні важкий день, багато талонів на ремонт по всьому місту"
-    play sound "audio/Сцена 4/СіданняВМашину.mp3"
-    "{i}*Сідає в машину*"
+
+    menu:
+        "Сісти в машину":
+            play sound "audio/Сцена 4/СіданняВМашину.mp3"
 
     show інкі задумлива at right2
+    stop sound fadeout 1
+    play sound "audio/Сцена 4/Звук автомобіля.mp3"
     інкі"Точно не хочеш трошки? В мене є додаткова доза. Ось побачиш, тобі полегшає"
 
     show машина_анімована behind  павка with dissolve
@@ -238,7 +242,7 @@ label scene_four:
 
         "{i}Нехай зловживає ":
             $ годіум_інкі = 1
-            show інкі приймає_годіум at right2
+            show інкі годіум at right2
             show павка задумлива at left2
             інкі "Гик! Наче знов розвидняється"
 

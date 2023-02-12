@@ -315,7 +315,7 @@ screen navigation():
         if main_menu:
 
             if renpy.get_screen("main_menu"):
-                textbutton _("{space=140}Почати") action Start()
+                textbutton _("{space=60}Почати") action Start()
             else:
                 textbutton _("Почати") action Start()
         else:
@@ -326,13 +326,13 @@ screen navigation():
 
 
         if renpy.get_screen("main_menu"):
-            textbutton _("{space=200}Завантажити") action ShowMenu("load")
+            textbutton _("{space=100}Завантажити") action ShowMenu("load")
         else:
             textbutton _("Завантажити") action ShowMenu("load")
 
 
         if renpy.get_screen("main_menu"):
-            textbutton _("{space=260}Налаштування") action ShowMenu("preferences")
+            textbutton _("{space=140}Налаштування") action ShowMenu("preferences")
         else:
             textbutton _("Налаштування") action ShowMenu("preferences")
 
@@ -345,7 +345,7 @@ screen navigation():
             textbutton _("Головне меню") action MainMenu()
 
         if renpy.get_screen("main_menu"):
-            textbutton _("{space=320}Про гру") action ShowMenu("about")
+            textbutton _("{space=180}Про гру") action ShowMenu("about")
         else:
             textbutton _("Про гру") action ShowMenu("about")
 
@@ -353,14 +353,14 @@ screen navigation():
 
             ## Допомога не є необхідною або актуальною для мобільних пристроїв.
             if renpy.get_screen("main_menu"):
-                textbutton _("{space=380}Довідка") action ShowMenu("help")
+                textbutton _("{space=220}Довідка") action ShowMenu("help")
             else:
                 textbutton _("Довідка") action ShowMenu("help")
         if renpy.variant("pc"):
 
             ## Кнопка виходу заборонена на iOS і непотрібна на Android і в Веб.
             if renpy.get_screen("main_menu"):
-                textbutton _("{space=440}Вийти") action Quit(confirm=not main_menu)
+                textbutton _("{space=260}Вийти") action Quit(confirm=not main_menu)
             else:
                 textbutton _("Вийти") action Quit(confirm=not main_menu)
 

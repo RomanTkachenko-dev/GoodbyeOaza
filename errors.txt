@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/code/scene (13)/scene13.rpy", line 138: expected 'simple_expression' not found.
-    scene image
-               ^
+File "game/code/scene (8)/scene 8.rpy", line 330: expected statement.
+    Звук автомобіля
+                   ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Feb 12 20:16:28 2023
+Sun Feb 12 21:52:34 2023

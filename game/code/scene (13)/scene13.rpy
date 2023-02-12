@@ -160,5 +160,4 @@ label scene_thirteen :
     show генто посмішка at right2
     генто "Давай нарешті виведемо тебе з цього клятого міста!"
 
-    "ТІТРИ"
     jump scene_final

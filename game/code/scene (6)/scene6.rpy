@@ -91,8 +91,8 @@ label scene_six:
 
     scene кімната116_флешбек_тріп with dissolve
 
-    show павка під кайфом at left2
-    show робі під кафом at right2
+    show павка кайф at left2
+    show робі кайф at right2
     робі "А я казав, я тобі казав!"
 
     робі "Слава засновникам Купола"
