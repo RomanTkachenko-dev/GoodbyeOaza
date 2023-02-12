@@ -1,0 +1,12 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+The label scene_ten is defined twice, at File "game/code/scene (10)/scene10.rpy", line 1:
+label scene_ten:
+and File "game/code/scene (11)/scene11.rpy", line 1:
+label scene_ten:
+
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Sun Feb 12 05:24:47 2023
