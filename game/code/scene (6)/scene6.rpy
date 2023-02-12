@@ -106,7 +106,7 @@ label scene_six:
     робі "Слава мені"
 
     hide кімната116_флешбек_тріп
-    scene фон
+    scene фон with dissolve
 
     "..."
     "{i}Минув тиждень"
@@ -335,12 +335,11 @@ label scene_six:
     show павка усміхнена at left2 with dissolve
     павка "Ага, добре"
 
-    hide інкі задумлива at right2 with dissolve
-    hide павка усміхнена at left2 with dissolve
+    hide інкі задумлива at right2
+    hide павка усміхнена at left2 
     scene фон with dissolve
     "{i}Минуло півгодини"
 
-    scene фон with dissolve
 
     show інкі нейтральна at right2 with dissolve
     show павка весела at left2 with dissolve

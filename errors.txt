@@ -2,10 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/code/scene (9)/scene 9.rpy", line 387: invalid syntax
-    renpy.notify('Gained achievement: "Свій шлях"')Свій шлях
-                                                    ^
-    
+File "game/code/scene (14)/scene14.rpy", line 17: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        "{i}Коли стає зовсім темно, я уповільнююся, витягую вперед руку і інстинктивно мружу очі
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Feb 12 23:31:32 2023
+Sun Feb 12 23:57:25 2023
