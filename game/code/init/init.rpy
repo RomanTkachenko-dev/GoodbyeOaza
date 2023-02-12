@@ -55,6 +55,7 @@ default покора_лайі = 0
 default годіум_інкі = False
 default лайка_інкі = False
 default шок_інкі = False
+default обіцянка_інкі = False
 
 default вулиця = False
 default брама = False
