@@ -4,6 +4,7 @@ label scene_seven:
     "......"
     scene автомат_годіум2 with dissolve
     play music  "audio/Сцена 4/МістоАмбієнт2.mp3" fadeout 5
+    
     show павка нейтральна at left2 with dissolve
     show інкі нейтральна at right2 with dissolve
 

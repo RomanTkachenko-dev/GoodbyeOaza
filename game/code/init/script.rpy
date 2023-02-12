@@ -73,6 +73,3 @@ label start:
     павка "..."
     stop sound fadeout 3
     jump scene_two
-
-
-    return

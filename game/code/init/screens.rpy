@@ -354,7 +354,7 @@ screen navigation():
 
             ## Кнопка виходу заборонена на iOS і непотрібна на Android і в Веб.
             if renpy.get_screen("main_menu"):
-                textbutton _("{space=1700}Вийти") action Quit(confirm=not main_menu)
+                textbutton _("{space=440}Вийти") action Quit(confirm=not main_menu)
             else:
                 textbutton _("Вийти") action Quit(confirm=not main_menu)
 
