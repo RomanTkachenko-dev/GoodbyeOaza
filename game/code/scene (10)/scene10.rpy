@@ -223,6 +223,8 @@ label scene_ten:
                         "Йти на звук":
                             павка "Хай буде що буде"
 
+                    "..."
+                    scene фон
                     jump scene_eleven
 
 label proval_10:
