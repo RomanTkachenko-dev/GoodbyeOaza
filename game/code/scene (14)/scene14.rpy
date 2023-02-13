@@ -1,4 +1,5 @@
 label scene_final:
+    default persistent.number = 1
     scene фон with dissolve
     play music "audio/Сцена 14/Кроки В Тунелі.mp3"
 
@@ -194,7 +195,7 @@ label scene_final:
     hide генто посмішка at right2
     "{i}Генто йде, остання людина з міста Купол, з якою мені довелося говорити"
 
-    stop music
+
 
     "{i}Ще якийсь час я мовчу, усвідомлюючи, що от-от я нарешті..."
 
@@ -207,11 +208,13 @@ label scene_final:
             "..."
 
     "{i}Тоді налягаю на двері, і вони важко, повільно відкриваються"
-
-    hide павка2 весела at left2
+    stop music
+    hide павка2 весела at left2 with dissolve
+    play music "audio/Сцена 14/Тема Виходу Назовні Основна.mp3"
+    "..."
     scene назовні_куполу
     $ renpy.notify('Gained achievement: "Прощавай, Оазо!"')
-    play music "audio/Сцена 14/Тема Виходу Назовні Основна.mp3"
+
 
     "{i}Запахи стають сильніше. Знайомі запахи, яких я ніколи не чула"
 
@@ -232,6 +235,7 @@ label scene_final:
     scene фон with dissolve
 
     jump end
+
 label end:
 
     show text "Над грою працювали:" with dissolve
@@ -257,6 +261,10 @@ label end:
     show text "Додаткові звуки взяти з відкритих бібліотек YouTube.com та pixabay.com"
     $ renpy.pause(4.0)
     show text "Гру створено для геймджему українських візуальних новел Ukrainian Visual Novel Jam #2"
-    $ renpy.pause(2.0)
+    $ renpy.pause(5.0)
+    show text "Дякуємо!"
+    $ renpy.pause(5.0)
+
+    $ persistent.number = 2
 
     return

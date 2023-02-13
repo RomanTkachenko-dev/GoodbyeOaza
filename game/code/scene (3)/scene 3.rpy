@@ -58,7 +58,7 @@ label scene_three:
     "{i}Довірилася Робі. І чим все закінчилося?"
 
     show павка задумлива at left2
-    "{i}Довірилася Робі. І чим все закінчилося?"
+
     "{i}Я маю контролювати ситуацію — я, а не якийсь там куратор"
 
     show павка рішуча at left2
@@ -88,14 +88,14 @@ label scene_three:
     "{i}Тепер все що завгодно може статися"
 
     show павка рішуча at left2
-    play music "audio/Пісні Павка/ПісняА2.mp3" fadeout 1
+    play music "audio/Пісні Павка/ПісняА2.mp3" fadeout 3
 
     "{i}..."
 
     show павка весела at left2
     "{i}Фух, відпустило. Це завжди мене заспокоює"
     stop music fadeout 2
-    play music "audio/Сцена 3/МістоАмбієнт.mp3"
+    play music "audio/Сцена 3/МістоАмбієнт.mp3" fadeout 2
 
     show павка нейтральна at left2
     "{i}Мабуть, він це почув..."
@@ -169,9 +169,10 @@ label scene_three:
     лайя "…"
 
     "{i}Як же хочется повернутися і подивитися йому в очі! Але це може бути небезпечно…"
-    $ renpy.notify('Gained achievement: "Що казали його очі?"')
+
     menu:
         "Обернутися і подивитися йому в очі":
+            $ renpy.notify('Gained achievement: "Що казали його очі?"')
             $відносини_лайя += 1
             play sound "audio/Сцена 3/Шурхіт.mp3"
             show павка весела at left2

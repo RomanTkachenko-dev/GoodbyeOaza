@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/code/scene (14)/scene14.rpy", line 17: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-        "{i}Коли стає зовсім темно, я уповільнююся, витягую вперед руку і інстинктивно мружу очі
+File "game/code/scene (14)/scene14.rpy", line 267: expected 'image_name_component' not found.
+    show "/image/Scene 14/назовні_куполу.png" as background
+         ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Feb 12 23:57:25 2023
+Mon Feb 13 18:35:57 2023

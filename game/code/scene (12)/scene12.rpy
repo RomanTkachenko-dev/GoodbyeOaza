@@ -199,12 +199,14 @@ label scene_twelve:
                     play sound "audio/Пісні Павка/ПісняО2.mp3"
 
                     show павкадім співає at left2
-                    павка "…"
-
+                    павка "..."
+                    павка "...."
+                    павка "....."
+                    #$ renpy.pause(4.0)
                     show павкадім здивована at left2
                     show батько нейтральний at right2
                     батько "Що це було?"
-
+                    stop sound fadeout 7
                     show батько умиротворений at right2
                     батько "Доню, мені стало легше. Біль відступив!"
 
@@ -217,7 +219,7 @@ label scene_twelve:
                     батько "Заспіваєш мені ще?"
 
                     #*пісня Павки*
-                    stop sound
+                    show павкадім співає at left2
                     play sound "audio/Пісні Павка/ПісняО2.mp3"
 
                     hide батько посміхається at right2 with dissolve
@@ -226,12 +228,12 @@ label scene_twelve:
                     scene фон
 
                     "..."
+                    "...."
 
-                    stop sound
                     play music "audio/Сцена 11/Тема Нижніх Катакомб Приглушена ІІ.mp3"
 
                     scene катакомби_1
-
+                    stop sound fadeout 5
                     show павка2 здивована at left2
                     "{i}Що це? Я чую музику? Тут?"
 
@@ -252,7 +254,7 @@ label scene_twelve:
                     генто "Давай рухатися швидше, нам ще довго йти"
 
                     hide генто нейтральний at right2 with dissolve
-                    show павка2К рішуча at left2
+                    show павка2 рішуча at left2
                     "{i}Але я не можу просто пройти повз це.. Я чую справжню музику — вперше в моєму житті!"
 
                     menu:

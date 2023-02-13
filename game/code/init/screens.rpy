@@ -303,14 +303,18 @@ screen navigation():
 
         #xpos gui.navigation_xpos
         if  renpy.get_screen("main_menu"):
-            xalign 0.1
-            yalign 0.95
+            xalign 0.35
+            yalign 0.92
+            spacing 0
+
         else:
             xpos 60
             yalign 0.5
 
-
         spacing gui.navigation_spacing
+
+
+
 
         if main_menu:
 
@@ -360,7 +364,7 @@ screen navigation():
 
             ## Кнопка виходу заборонена на iOS і непотрібна на Android і в Веб.
             if renpy.get_screen("main_menu"):
-                textbutton _("{space=260}Вийти") action Quit(confirm=not main_menu)
+                textbutton _("{space=1600}Вийти") action Quit(confirm=not main_menu)
             else:
                 textbutton _("Вийти") action Quit(confirm=not main_menu)
 
@@ -383,7 +387,6 @@ style navigation_button_text:
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
 screen main_menu():
-
     ## Це гарантує, що будь-який інший екран меню буде замінено.
     tag menu
 
@@ -407,6 +410,7 @@ screen main_menu():
 
             text "[config.version]":
                 style "main_menu_version"
+
 
 
 style main_menu_frame is empty
@@ -436,6 +440,8 @@ style main_menu_title:
 
 style main_menu_version:
     properties gui.text_properties("version")
+
+#####################################################
 
 
 ## Екран меню гри ##############################################################

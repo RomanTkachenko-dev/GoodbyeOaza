@@ -159,7 +159,7 @@ define config.save_directory = "GoodbyeOaza-1676196598"
 ##
 ## Значок, що відображається на панелі завдань або док-станції.
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/window_icon.ico"
 
 
 ## Створити конфігурацію #######################################################

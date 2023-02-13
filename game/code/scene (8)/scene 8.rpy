@@ -2,8 +2,8 @@
 label scene_eight:
     scene погоня with dissolve
 
-    $ time = 5
-    $ timer_range = 5
+    $ time = 7
+    $ timer_range = 7
     $ timer_jump = 'proval'
     play music "audio/Сцена 8/Прискорене серцебиття.mp3" fadeout 1
     "{i}Ноги самі несуть мене геть"
@@ -20,12 +20,12 @@ label scene_eight:
 
     "{i}Час зупинитись і подумати. Доки я не накоїла дурниць"
     stop music
-    play music "audio/Сцена 8/Тема Втечі.mp3"
+    play music "audio/Сцена 7/ТемаПередВтечею.mp3" fadeout 3
     menu:
         "Зупинитись":
             "{i}Фух. Час видохнути і зібратись з думками"
 
-    play music "audio/Сцена 7/ТемаПередВтечею.mp3" fadeout 3
+    #
 
     "{i}Перевіряючі, напвено, вже дістались до того трансконнектору"
 
@@ -38,8 +38,8 @@ label scene_eight:
         "{i}Сподіваюсь, Інкі зможе їх затримати. Це дасть мені трохи часу"
 
         "{i}Дякую тобі, подруго. Сподіваюсь, з тобою все буде гаразд"
-    stop music
-    play music "audio/Сцена 8/Тема Втечі.mp3"
+    #stop music
+    #play music "audio/Сцена 8/Тема Втечі.mp3"
     "{i}Що ж мені робити?"
 
     menu:
@@ -56,7 +56,7 @@ label scene_eight:
 
     "{i}До брами далеко. Але якщо транспортери ще літають, я зможу застрибнути на один з них і доїхати прямо до неї"
 
-    "{i}Вилиця Чиста всього в двох кварталах звідси. Але щось мені підказує, що прямувати пішки буде небезпечніше"
+    "{i}Вулиця Чиста всього в двох кварталах звідси. Але щось мені підказує, що прямувати пішки буде небезпечніше"
 
     "{i}Куди мені слід вирушити?"
 
@@ -73,7 +73,7 @@ label scene_eight:
             "{i}Лайя повинен зараз бути біля брами. Значить, слід вирушати туди"
             "{i}До того ж, це ближче до виходу з міста"
 
-
+    play music "audio/Сцена 8/Тема Втечі.mp3"
     if відносини_інкі < 2:
         play sound "audio/Сцена 8/Звук Робота.mp3"
         перевіряючий "Охопити периметр. Обшукати кожен будинок. Злочинець не міг втекти далеко"
@@ -81,8 +81,8 @@ label scene_eight:
         stop sound fadeout 3
 
 
-        $ time = 5
-        $ timer_range = 5
+        $ time = 7
+        $ timer_range = 7
         show screen countdown
         menu:
             "Бігти не озираючись":
@@ -98,8 +98,8 @@ label scene_eight:
 
         play sound "audio/Сцена 8/Звук Таймера.mp3"
 
-        $ time = 5
-        $ timer_range = 5
+        $ time = 7
+        $ timer_range = 7
         show screen countdown
         menu:
             "Бігти не озираючись ":
@@ -156,8 +156,8 @@ label street:
     play sound "audio/Сцена 8/Звук Таймера.mp3"
 
     $ timer_jump = 'proval2'
-    $ time = 5
-    $ timer_range = 5
+    $ time = 7
+    $ timer_range = 7
     show screen countdown
     menu:
         "Бігти навпростець":
@@ -234,8 +234,8 @@ label street:
         "{i}Здається, я була недостатньо обережною. Але що робити тепер?"
 
         play sound "audio/Сцена 8/Звук Таймера.mp3"
-        $ time = 5
-        $ timer_range = 5
+        $ time = 7
+        $ timer_range = 7
         show screen countdown
         menu:
             "Тікати назад":
@@ -260,8 +260,8 @@ label street:
 
                 play sound "audio/Сцена 8/Звук Таймера.mp3"
                 $ timer_jump = 'proval3'
-                $ time = 5
-                $ timer_range = 5
+                $ time = 7
+                $ timer_range = 7
                 show screen countdown
                 menu:
                     "Застосувати електрошокер":
@@ -336,8 +336,8 @@ label brama:
 
     play sound "audio/Сцена 8/Звук Таймера.mp3"
     $ timer_jump = 'proval_brama'
-    $ time = 5
-    $ timer_range = 5
+    $ time = 7
+    $ timer_range = 7
     show screen countdown
     menu:
         "Оббігти і роздивитись":
@@ -356,8 +356,8 @@ label brama:
             stop music
             play music "audio/Сцена 8/Тема Втечі.mp3"
             $ timer_jump = 'proval_brama'
-            $ time = 5
-            $ timer_range = 5
+            $ time = 7
+            $ timer_range = 7
             show screen countdown
             menu:
                 "Застрибнути в салон":
@@ -404,8 +404,8 @@ label brama:
             "{i}А також те, що вона не помітила склянку Г36, яка випала у неї з сумки і закотилась під одне з сидіннь"
 
             play sound "audio/Сцена 8/Звук Таймера.mp3"
-            $ time = 5
-            $ timer_range = 5
+            $ time = 7
+            $ timer_range = 7
             show screen countdown
             menu:
                 "Непомітно взяти годіум собі":
@@ -471,8 +471,8 @@ label brama:
     if втеча_годіум == True:
         play sound "audio/Сцена 8/Звук Таймера.mp3"
         $ timer_jump = 'proval_brama'
-        $ time = 5
-        $ timer_range = 5
+        $ time = 7
+        $ timer_range = 7
         show screen countdown
 
         menu:
@@ -510,8 +510,8 @@ label brama:
     elif втеча_годіум == False:
         play sound "audio/Сцена 8/Звук Таймера.mp3"
         $ timer_jump = 'proval_brama'
-        $ time = 5
-        $ timer_range = 5
+        $ time = 7
+        $ timer_range = 7
         show screen countdown
         menu:
             "Застосувати електрошокер":
@@ -524,8 +524,8 @@ label brama:
                 "Пасажири з острахом вжимаються у сидіння. Другий робот наближається, треба бігти!"
 
                 $ timer_jump = 'proval_brama'
-                $ time = 5
-                $ timer_range = 5
+                $ time = 7
+                $ timer_range = 7
                 show screen countdown
                 play sound "audio/Сцена 8/Звук Таймера.mp3"
                 menu:

@@ -1,3 +1,6 @@
+image maine_menu = "gui/main_menu[persistent.number].jpg"
+
+
 define невідомий = Character("???", color = "#ffffff")
 
 define павка = Character("Павка", color = "#80ed99")
@@ -48,6 +51,7 @@ init:
 init:
     $ timer_range = 0
     $ timer_jump = 0
+    $ persistent.ending = "Ending 1"
 
 stop music
 default відносини_лайя = 0

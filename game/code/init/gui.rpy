@@ -105,7 +105,7 @@ label splashscreen:
     $ ui.pausebehavior( 5, result="Skip")
     $ ui.interact()
 
-    show text 'Рекомендуємо грати в навушниках для більшого занурення у історію'
+    show text 'Рекомендуємо грати в навушниках та на повний екран для більшого занурення у історію'
     $ ui.keymap(mouseup_1=ui.returns("_return"))
     $ ui.pausebehavior( 3, result="Skip")
     $ ui.interact()
@@ -483,8 +483,8 @@ init python:
         gui.choice_button_width = 1860
         gui.choice_button_text_size = 45
 
-        gui.navigation_spacing = 30
-        gui.pref_button_spacing = 15
+        gui.navigation_spacing = 10
+        gui.pref_button_spacing = 5
 
         gui.history_height = 285
         gui.history_text_width = 1035
