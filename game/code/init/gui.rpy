@@ -120,9 +120,12 @@ label splashscreen:
 ## Головне та ігрове меню ######################################################
 
 ## Зображення, які використовуються для головного та ігрового меню.
-define gui.main_menu_background = "gui/main_menu.png"
-define gui.game_menu_background = "gui/game_menu.png"
-
+#define gui.main_menu_background = "gui/main_menu.png"
+#define gui.game_menu_background = "gui/game_menu.png"
+define gui.main_menu_background = ConditionSwitch(
+    "persistent.is_game_completed", "gui/main_menu.png",
+    "True", "gui/main_menu2.png",
+)
 
 ## Діалог ######################################################################
 ##

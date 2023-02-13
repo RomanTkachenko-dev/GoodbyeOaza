@@ -1,5 +1,5 @@
-image maine_menu = "gui/main_menu[persistent.number].jpg"
-
+#image maine_menu = "gui/main_menu[persistent.number].jpg"
+default persistent.is_game_completed = False
 
 define невідомий = Character("???", color = "#ffffff")
 

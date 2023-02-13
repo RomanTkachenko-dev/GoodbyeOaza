@@ -266,5 +266,6 @@ label end:
     $ renpy.pause(5.0)
 
     $ persistent.number = 2
+    default persistent.is_game_completed = True
 
     return
