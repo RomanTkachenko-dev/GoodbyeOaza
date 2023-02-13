@@ -124,7 +124,7 @@ label splashscreen:
 #define gui.game_menu_background = "gui/game_menu.png"
 define gui.main_menu_background = ConditionSwitch(
     "persistent.is_game_completed", "gui/main_menu.png",
-    "True", "gui/main_menu2.png",
+    "True", "gui/main_menu_2.png",
 )
 
 ## Діалог ######################################################################
