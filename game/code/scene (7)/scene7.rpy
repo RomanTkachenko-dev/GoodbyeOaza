@@ -431,7 +431,7 @@ label scene_seven:
 
                             show павка сумна at left2
                             show інкі рішуча at right2
-                            scene фон with dissolve
+                            scene gameover with dissolve
                             hide інкі рішуча with dissolve
                             hide павка сумна with dissolve
                             "{i}Ну от і все. На цьому моя історія закінчується"

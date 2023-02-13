@@ -232,6 +232,8 @@ label scene_ten:
 
 label proval_10:
     перевіряючий "Підзорювану діслоковано. Починаю операцію перехоплення"
-    scene фон
+    scene gameover with dissolve
+    "Ну от і все. На цьому моя історія закінчується…"
     "..."
+    "Чи?..."
     jump scene_ten

@@ -2,9 +2,29 @@
 errors listed below, and try again.
 
 
-File "game/code/scene (14)/scene14.rpy", line 269: expected statement.
-    persistent.is_game_completed = True
-                                 ^
+File "game/code/scene (8)/scene 8.rpy", line 213: expected 'image_name_component' not found.
+    show scene погоня_2 at shaking
+        ^
+
+File "game/code/scene (8)/scene 8.rpy", line 215: expected 'image_name_component' not found.
+    show scene погоня_2
+        ^
+
+File "game/code/scene (8)/scene 8.rpy", line 248: expected 'image_name_component' not found.
+    show scene погоня_2 at shaking
+        ^
+
+File "game/code/scene (8)/scene 8.rpy", line 250: expected 'image_name_component' not found.
+    show scene погоня_2
+        ^
+
+File "game/code/scene (8)/scene 8.rpy", line 282: expected 'image_name_component' not found.
+    show scene погоня_2 at shaking
+        ^
+
+File "game/code/scene (8)/scene 8.rpy", line 284: expected 'image_name_component' not found.
+    show scene погоня_2
+        ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Mon Feb 13 19:03:19 2023
+Mon Feb 13 19:40:23 2023
