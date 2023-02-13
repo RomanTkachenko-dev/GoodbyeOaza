@@ -265,7 +265,7 @@ label end:
     show text "Дякуємо!"
     $ renpy.pause(5.0)
 
-    $ persistent.number = 2
-    default persistent.is_game_completed = True
+    #$ persistent.number = 2
+    $persistent.is_game_completed = True
 
     return

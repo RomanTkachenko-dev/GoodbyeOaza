@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/code/scene (14)/scene14.rpy", line 267: expected 'image_name_component' not found.
-    show "/image/Scene 14/назовні_куполу.png" as background
-         ^
+File "game/code/scene (14)/scene14.rpy", line 269: expected statement.
+    persistent.is_game_completed = True
+                                 ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Mon Feb 13 18:35:57 2023
+Mon Feb 13 19:03:19 2023
