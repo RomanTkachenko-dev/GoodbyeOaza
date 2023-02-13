@@ -76,4 +76,4 @@ AttributeError: 'StoreModule' object has no attribute 'game_menu_background'
 Windows-10-10.0.22000 AMD64
 Ren'Py 8.0.3.22090809
 Прощавай, Оазо 
-Mon Feb 13 20:01:03 2023
+Mon Feb 13 20:12:13 2023
