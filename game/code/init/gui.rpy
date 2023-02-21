@@ -18,7 +18,7 @@ init python:
 
 
 ## Кольори #####################################################################
-##
+##https://github.com/severus-dev/GoodbyeOaza/
 ## Кольори тексту в інтерфейсі.
 
 ## Колір акценту, який використовується в інтерфейсі для позначення та виділення
@@ -121,7 +121,7 @@ label splashscreen:
 
 ## Зображення, які використовуються для головного та ігрового меню.
 #define gui.main_menu_background = "gui/main_menu.png"
-#define gui.game_menu_background = "gui/game_menu.png"
+define gui.game_menu_background = "gui/game_menu.png"
 define gui.main_menu_background = ConditionSwitch(
     "persistent.is_game_completed", "gui/main_menu.png",
     "True", "gui/main_menu_2.png",

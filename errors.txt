@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/code/init/screens.rpy", line 462: screen expects a non-empty block.
-    else:
-         ^
+File "game/code/scene (2)/scene2.rpy", line 27: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        павка "Ті люди... Вони раділи просто так, без будь-якого годіуму!
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Mon Feb 13 20:09:59 2023
+Mon Feb 13 21:24:21 2023
