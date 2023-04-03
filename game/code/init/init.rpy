@@ -61,13 +61,17 @@ default непомітність = 0
 default швидкість = 0
 
 default покора_лайі = 0
+default викриття_лайї = False
 
 default годіум_інкі = False
 default лайка_інкі = False
 default шок_інкі = False
 default обіцянка_інкі = False
+default прикриття_інкі = False
 
 default втеча_годіум = False
 
 default вулиця = False
 default брама = False
+
+default електрошок = 0
